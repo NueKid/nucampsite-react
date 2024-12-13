@@ -1,5 +1,5 @@
 import React from 'react';
-import CampsitesList from './features/campsites/CampsitesList.js';
+import CampsitesDirectoryPage from './pages/CampsitesDirectoryPage.js';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import './App.css';
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <CampsitesList />
+      <CampsitesDirectoryPage />
       <Footer />
     </div>
   );
