@@ -1,5 +1,5 @@
 import { Col } from 'reactstrap';
-import Comment from './Comment.JS';
+import Comment from './Comment';
 import { selectCommentsbyCampsiteId } from './commentsSlice';
 
 const CommentsList = ({ campsiteId }) => {
