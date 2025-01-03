@@ -32,7 +32,7 @@ const CommentForm = ({ campsiteId }) => {
         </Button>
         <Modal isOpen={modalOpen}>
             <ModalHeader toggle={() => setModalOpen(false)}>
-                Addd Comment
+                Add Comment
             </ModalHeader>
             <ModalBody>
                 <Formik initialValues={{
